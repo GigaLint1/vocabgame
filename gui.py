@@ -4,7 +4,8 @@ import random
 from tkinter import font
 import re
 
-score = 0   
+defscore = 0   
+egscore = 0
 
 # Initiator
 class GuessingGame(tk.Tk):
@@ -68,20 +69,20 @@ class Definitions(tk.Frame):
         lst = [0, 1, 2]
         random.shuffle(lst)
 
-        b1 = tk.Button(self, text=self.fake1, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.fake1: self.check(a, outcome))
+        b1 = tk.Button(self, text=self.fakedef1, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.fakedef1: self.check(a, outcome))
         b1.grid(row=2, rowspan=2, column=lst[0], ipady=20, ipadx=10, padx=20, pady=30)
 
-        b2 = tk.Button(self, text=self.fake2, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.fake2: self.check(a, outcome))
+        b2 = tk.Button(self, text=self.fakedef2, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.fakedef2: self.check(a, outcome))
         b2.grid(row=2, rowspan=2, column=lst[1], ipady=20, ipadx=10, padx=20, pady=30)
 
-        b3 = tk.Button(self, text=self.definition, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.definition: self.check(a, outcome))
+        b3 = tk.Button(self, text=self.correctdef, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.correctdef: self.check(a, outcome))
         b3.grid(row=2, rowspan=2, column=lst[2], ipady=20, ipadx=10, padx=20, pady=30)
 
         outcome = tk.Label(self, font=self.helv36)
         outcome.grid(row=4, column=1)
 
-        global score
-        scores = tk.Label(self, text=f"Score: {str(score)}", font=self.helv36)
+        global defscore
+        scores = tk.Label(self, text=f"Score: {str(defscore)}", font=self.helv36)
         scores.grid(row=5, column=2)
 
     def new_word(self):
@@ -93,20 +94,17 @@ class Definitions(tk.Frame):
         self.word = random.choice(self._words[1:])['word']
         for i in self._words[1:]:
             if i['word'] == self.word:
-                self._definition = i['definitions']
-                self.definition = re.sub(r"[(\[\')(\'\])]", ' ', self._definition)
+                self.correctdef = re.sub(r"[(\[\')(\'\])]", ' ', i['definitions'])
                 self._words.pop(self._words.index(i))
         self._fakes = random.sample(self._words, 2)
-        self._fake1 = self._fakes[0]['definitions']
-        self.fake1 = re.sub(r"[(\[\')(\'\])]", ' ', self._fake1)
-        self._fake2 = self._fakes[1]['definitions']
-        self.fake2 = re.sub(r"[(\[\')(\'\])]", ' ', self._fake2)
+        self.fakedef1 = re.sub(r"[(\[\')(\'\])]", ' ', self._fakes[0]['definitions'])
+        self.fakedef2 = re.sub(r"[(\[\')(\'\])]", ' ', self._fakes[1]['definitions'])
     
     def check(self, guess, outcome):
-        if guess == self.definition:
+        if guess == self.correctdef:
             outcome.config(text = "correct", fg='green')
-            global score
-            score += 1   
+            global defscore
+            defscore += 1   
             self.nextslide()     
 
         else:
@@ -128,9 +126,80 @@ class Examples(tk.Frame):
 
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
-        title = tk.Label(self,text='What is the correct word for this sentence?', bg='#80c1ff')
-        title.pack(fill='x')
+        self.controller = controller 
+
+        self.titlefont = font.Font(family='Arial', size=20, weight='bold')
+        self.qwordfont = font.Font(family='Arial', size=20, weight='bold')
+        self.helv36 = font.Font(family='Helvetica', size=10, weight='bold', underline=True)
+
+        title = tk.Label(self,text='Fill in the blank with the correct word.', bg='#80c1ff')
+        title.grid(row=0, column= 1, sticky='nesw', ipadx=70, ipady=20, pady=20)
+
+        self.new_sentence()
+
+        qsentence = tk.Label(self, text=self.sentence, bg='#80c1ff', font=self.qwordfont)
+        qsentence.grid(row=1, column=1, ipadx=150, ipady=30, pady=50)
         
+        lst = [0, 1, 2]
+        random.shuffle(lst)
+
+        b1 = tk.Button(self, text=self.fakeword1, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.fakeword1: self.check(a, outcome))
+        b1.grid(row=2, rowspan=2, column=lst[0], ipady=20, ipadx=10, padx=20, pady=30)
+
+        b2 = tk.Button(self, text=self.fakeword2, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.fakeword2: self.check(a, outcome))
+        b2.grid(row=2, rowspan=2, column=lst[1], ipady=20, ipadx=10, padx=20, pady=30)
+
+        b3 = tk.Button(self, text=self.correctword, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.correctword: self.check(a, outcome))
+        b3.grid(row=2, rowspan=2, column=lst[2], ipady=20, ipadx=10, padx=20, pady=30)
+
+        outcome = tk.Label(self, font=self.helv36)
+        outcome.grid(row=4, column=1)
+
+        global egscore
+        scores = tk.Label(self, text=f"Score: {str(egscore)}", font=self.helv36)
+        scores.grid(row=5, column=2)
+
+    def new_sentence(self):
+        self._sentences = []
+        with open('dictionary.csv', 'r') as dictionary:
+            reader = csv.DictReader(dictionary, fieldnames=['word', 'type', 'definitions', 'examples'])
+            for row in reader:
+                if row['examples'][0] != 'No examples':
+                    self._sentences.append(row)
+
+        self.sentence = random.choice(self._sentences[1:])['examples']
+      
+        for i in self._sentences[1:]:
+            if i['examples'] == self.sentence:
+                self.correctword = i['word']
+                self._sentences.pop(self._sentences.index(i))
+                self.sentence = self.sentence.replace(self.correctword, ('_' * len(self.correctword)))               
+
+        self._fakes = random.sample(self._sentences[1:], 2)
+        self.fakeword1 = self._fakes[0]['word']
+        self.fakeword2 = self._fakes[1]['word']      
+
+    def check(self, guess, outcome):
+        if guess == self.correctword:
+            outcome.config(text = "correct", fg='green')
+            global egscore
+            egscore += 1   
+            self.nextslide()     
+
+        else:
+            if outcome['text'] == 'wrong':
+                outcome.config(text = 'still wrong', fg='red')
+            else:
+                outcome.config(text = 'wrong', fg='red')
+        
+        
+    def nextslide(self):
+        global app
+        app.after(100, app.frames[Examples].destroy())
+        app.frames[Examples] = Examples(container, app)
+        app.frames[Examples].grid(row=0, column = 0, sticky = "nsew")
+        app.frames[Examples].tkraise()    
+
 # Start main events loop
 app = GuessingGame()
 app.mainloop()
