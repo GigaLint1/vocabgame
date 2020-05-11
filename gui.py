@@ -38,15 +38,15 @@ class HomePage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.btnfont = font.Font(family='Helvetica', size=20, weight='bold')
-        self.titlefont = font.Font(family='Helvetica', size=40, weight='bold')
+        self.titlefont = font.Font(family='Helvetica', size=35, weight='bold')
         title = tk.Label(self, text='Vocab guessing game.', font=self.titlefont)
-        title.grid(row=0, column=1, padx=100, pady=100)
+        title.grid(row=0, column=1, pady=100)
 
         def_btn = tk.Button(self, text='Definitions', fg='blue', font=self.btnfont, command=lambda: controller.show_frame(Definitions))
-        def_btn.grid(row=1, column=0, padx=150, pady=100, ipadx=50)
+        def_btn.grid(row=1, column=0, padx=50, pady=100, ipadx=50)
 
         eg_btn = tk.Button(self, text='Examples', fg='green', font=self.btnfont, command=lambda: controller.show_frame(Examples))
-        eg_btn.grid(row=1, column=2, padx=150, pady=100, ipadx=50)
+        eg_btn.grid(row=1, column=2, padx=50, pady=100, ipadx=50)
 
 # Definitions 
 class Definitions(tk.Frame):
@@ -128,17 +128,17 @@ class Examples(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller 
 
-        self.titlefont = font.Font(family='Arial', size=20, weight='bold')
-        self.qwordfont = font.Font(family='Arial', size=20, weight='bold')
+        self.titlefont = font.Font(family='Arial', size=14, weight='bold')
+        self.qwordfont = font.Font(family='Arial', size=14, weight='bold')
         self.helv36 = font.Font(family='Helvetica', size=10, weight='bold', underline=True)
 
-        title = tk.Label(self,text='Fill in the blank with the correct word.', bg='#80c1ff')
-        title.grid(row=0, column= 1, sticky='nesw', ipadx=70, ipady=20, pady=20)
+        title = tk.Label(self,text='Fill in the blank with the correct word.', bg='#80c1ff', font=self.titlefont)
+        title.grid(row=0, column= 1, sticky='nesw', ipadx=70, ipady=20, pady=40)
 
         self.new_sentence()
 
-        qsentence = tk.Label(self, text=self.sentence, bg='#80c1ff', font=self.qwordfont)
-        qsentence.grid(row=1, column=1, ipadx=150, ipady=30, pady=50)
+        qsentence = tk.Label(self, text=self.sentence, bg='#80c1ff', font=self.qwordfont, wraplength=350)
+        qsentence.grid(row=1, column=1, ipadx=100, ipady=30, pady=50)
         
         lst = [0, 1, 2]
         random.shuffle(lst)
@@ -161,19 +161,28 @@ class Examples(tk.Frame):
 
     def new_sentence(self):
         self._sentences = []
+        self._haveexamples = []
         with open('dictionary.csv', 'r') as dictionary:
             reader = csv.DictReader(dictionary, fieldnames=['word', 'type', 'definitions', 'examples'])
             for row in reader:
-                if row['examples'][0] != 'No examples':
-                    self._sentences.append(row)
+                self._sentences.append(dict(row))
 
-        self.sentence = random.choice(self._sentences[1:])['examples']
-      
-        for i in self._sentences[1:]:
-            if i['examples'] == self.sentence:
+        for i in self._sentences:
+            if i['examples'] != "['No examples']":     
+                i['examples'] = re.sub(r"[(\[\[)(\]\])]", '', i['examples']).split("', '")
+                self._haveexamples.append(i)
+
+        self._sentence = random.choice(self._haveexamples[1:])['examples']       
+        if len(self._sentence) > 1:
+            self.sentence = " / \n".join(self._sentence)
+        else:
+            self.sentence = self._sentence[0]
+
+        for i in self._haveexamples[1:]:
+            if i['examples'] == self._sentence:
                 self.correctword = i['word']
                 self._sentences.pop(self._sentences.index(i))
-                self.sentence = self.sentence.replace(self.correctword, ('_' * len(self.correctword)))               
+                self.sentence = self.sentence.replace(self.correctword, '______').rstrip("\"'").lstrip("\"'")               
 
         self._fakes = random.sample(self._sentences[1:], 2)
         self.fakeword1 = self._fakes[0]['word']

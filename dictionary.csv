@@ -1,217 +1,434 @@
-word,type,definitions,examples
-caveat,noun,"['a warning or proviso of specific stipulations, conditions, or limitations']",[['there are a number of caveats which concern the validity of the assessment results']]
-gratuitous,adjective,['given or done free of charge'],[['solicitors provide a form of gratuitous legal advice']]
-veracity,noun,['conformity to facts; accuracy'],[['officials expressed doubts concerning the veracity of the story']]
-altruistic,adjective,['showing a disinterested and selfless concern for the well-being of others; unselfish'],"[['it was an entirely altruistic act', 'I question how altruistic his motives were']]"
-apartheid,noun,['(in South Africa) a policy or system of segregation or discrimination on grounds of race.'],['No examples']
-visceral,adjective,['relating to deep inward feelings rather than to the intellect'],"[[""the voters' visceral fear of change""]]"
-ubiquitous,adjective,"['present, appearing, or found everywhere']","[['his ubiquitous influence was felt by all the family', 'cowboy hats are ubiquitous among the male singers']]"
-servitude,noun,['the subjection of property to an easement.'],['No examples']
-stricture,noun,['abnormal narrowing of a canal or duct in the body'],"[['a colonic stricture', 'jaundice caused by bile duct stricture']]"
-opine,verb,"[""hold and state as one's opinion""]","[['‘The man is a genius,’ he opined', 'the headmistress opined that the outing would make a nice change for Flora']]"
-larder,noun,['a room or large cupboard for storing food.'],['No examples']
-heresy,noun,['belief or opinion contrary to orthodox religious (especially Christian) doctrine'],"[['Huss was burned for heresy', 'the doctrine was denounced as a heresy by the Pope']]"
-conflate,verb,"['combine (two or more sets of information, texts, ideas, etc.) into one']","[['the urban crisis conflates a number of different economic, political, and social issues']]"
-beset,verb,['be covered or studded with'],[['springy grass all beset with tiny jewel-like flowers']]
-beleaguered,adjective,['(of a place) surrounded by armed forces aiming to capture it or force surrender; besieged'],[['he led a relief force to the aid of the beleaguered city']]
-ostensible,adjective,"['stated or appearing to be true, but not necessarily so']",[['the real dispute which lay behind the ostensible complaint']]
-dogma,noun,['a principle or set of principles laid down by an authority as incontrovertibly true'],"[['the dogmas of faith', 'the rejection of political dogma']]"
-technocracy,noun,['the government or control of society or industry by an elite of technical experts'],[['failure in the war on poverty discredited technocracy']]
-proxy,noun,['a figure that can be used to represent the value of something in a calculation'],[['the use of a US wealth measure as a proxy for the true worldwide measure']]
-egalitarian,adjective,['believing in or based on the principle that all people are equal and deserve equal rights and opportunities'],"[['a fairer, more egalitarian society']]"
-heuristic,adjective,['enabling someone to discover or learn something for themselves'],[['a ‘hands-on’ or interactive heuristic approach to learning']]
-anachronistic,adjective,['belonging to a period other than that being portrayed'],"[[""'Titus' benefits from the effective use of anachronistic elements like cars and loudspeakers""]]"
-epithet,noun,['an adjective or phrase expressing a quality or attribute regarded as characteristic of the person or thing mentioned'],[['old men are often unfairly awarded the epithet ‘dirty’']]
-Kafkaesque,adjective,"[""characteristic or reminiscent of the oppressive or nightmarish qualities of Franz Kafka's fictional world""]",[['a Kafkaesque bureaucratic office']]
-ignominious,adjective,['deserving or causing public disgrace or shame'],[['no other party risked ignominious defeat']]
-confluence,noun,"['the junction of two rivers, especially rivers of approximately equal width']","[['\n              the confluence of the Rivers Ouse and Foss', 'farther down the Tigris at its confluence with the Euphrates']]"
-prosaic,adjective,['having or using the style or diction of prose as opposed to poetry; lacking imaginativeness or originality'],"[[""prosaic language can't convey the experience""]]"
-duress,noun,"['threats, violence, constraints, or other action used to coerce someone into doing something against their will or better judgement']",[['confessions extracted under duress']]
-lauded,adjective,['highly praised or admired'],"[['a lauded author', 'her much-lauded rendering of Lady Macbeth']]"
-buttressed,adjective,['(of a building or structure) strengthened or supported with a buttress'],[['a buttressed wall']]
-rectitude,noun,['morally correct behaviour or thinking; righteousness'],[['Mattie is a model of rectitude']]
-sui generis,adjective,['unique'],[['the sui generis nature of animals']]
-profligacy,noun,['licentious or dissolute behaviour'],"[[""the emperor's sexual profligacy"", 'an era of extreme decadence and profligacy']]"
-sanguine,adjective,['bloody or bloodthirsty.'],['No examples']
-cantankerous,adjective,"['bad-tempered, argumentative, and uncooperative']",[['he can be a cantankerous old fossil at times']]
-nadir,noun,['the point on the celestial sphere directly below an observer.'],['No examples']
-moribund,adjective,['(of a person) at the point of death'],[['on examination she was moribund and dehydrated']]
-archaic,adjective,['very old or old-fashioned'],[['prisons are run on archaic methods']]
-egregious,adjective,['remarkably good.'],['No examples']
-capricious,adjective,['given to sudden and unaccountable changes of mood or behaviour'],[['a capricious and often brutal administration']]
-partisan,noun,"['a member of an armed group formed to fight secretly against an occupying force, in particular one operating in German-occupied Yugoslavia, Italy, and parts of eastern Europe in the Second World War']","[['the partisans opened fire from the woods', 'it is not in the nature of partisan warfare to produce victory in the field']]"
-rumbustious,adjective,['boisterous or unruly'],[['rumbustious football fans']]
-jettison,verb,['throw or drop (something) from an aircraft or ship'],[['six aircraft jettisoned their loads in the sea']]
-salient,adjective,"['(of an animal) standing on its hind legs with the forepaws raised, as if leaping.']",['No examples']
-caricature,noun,"['a picture, description, or imitation of a person in which certain striking characteristics are exaggerated in order to create a comic or grotesque effect']","[['a crude caricature of the Prime Minister', 'there are elements of caricature in the portrayal of the hero']]"
-rapacious,adjective,['aggressively greedy or grasping'],[['rapacious landlords']]
-corollary,noun,['a proposition that follows from (and is often appended to) one already proved.'],['No examples']
-martyr,noun,['a person who is killed because of their religious or other beliefs'],[['the first Christian martyr']]
-imprimatur,noun,['an official licence issued by the Roman Catholic Church to print an ecclesiastical or religious book'],"[[""the imprimatur for this edition was granted by Cardinal O'Casey""]]"
-quiescence,noun,['inactivity or dormancy'],[['this method has been shown to induce sleep-like quiescence in adult animals']]
-Balkanize,verb,['divide (a region or body) into smaller mutually hostile states or groups'],"[['ambitious neighbours would snatch pieces of territory, Balkanizing the country', 'the balkanized world of the Senate Banking Committee']]"
-appellate,adjective,['(especially of a court) concerned with or dealing with applications for decisions to be reversed'],[['courts of appellate jurisdiction']]
-affront,noun,['an action or remark that causes outrage or offence'],"[[""he took his son's desertion as a personal affront"", 'the sackings were an affront to justice']]"
-impasse,noun,"['a situation in which no progress is possible, especially because of disagreement; a deadlock']",[['the current political impasse']]
-pedantic,adjective,['excessively concerned with minor details or rules; overscrupulous'],"[['his analyses are careful and even painstaking, but never pedantic']]"
-purveyor,noun,['a person who sells or deals in particular goods'],[['a purveyor of large luxury vehicles']]
-proliferate,verb,['increase rapidly in number; multiply'],[['the science fiction magazines which proliferated in the 1920s']]
-moratorium,noun,['a temporary prohibition of an activity'],[['a moratorium on the use of drift nets']]
-par excellence,adjective,['better or more than all others of the same kind'],"[['Nash is, to many, the Regency architect par excellence']]"
-zeitgeist,noun,['the defining spirit or mood of a particular period of history as shown by the ideas and beliefs of the time'],[['the story captured the zeitgeist of the late 1960s']]
-amorphous,adjective,['without a clearly defined shape or form'],"[['an amorphous, characterless conurbation', 'amorphous blue forms and straight black lines']]"
-slovenly,adjective,['(especially of a person or their appearance) untidy and dirty'],"[['a fat, slovenly ex-rock star']]"
-pellucid,adjective,['translucently clear'],[['mountains reflected in the pellucid waters']]
-pliable,adjective,['easily influenced'],[['pliable teenage minds']]
-matriculate,verb,['record (arms) in an official register'],[['the arms have been matriculated by the Lord Lyon King of Arms in Edinburgh']]
-abscond,verb,"['leave hurriedly and secretly, typically to escape from custody or avoid arrest']","[[""the barman absconded with a week's takings"", '176 detainees absconded']]"
-ardour,noun,['great enthusiasm or passion'],"[['the rebuff did little to dampen his ardour', 'he kissed her with an ardour that left her breathless']]"
-dawdle,verb,['waste time; be slow'],"[[""she mustn't dawdle—she had to make the call now""]]"
-blithely,adverb,['in a way that shows a casual and cheerful indifference considered to be callous or improper'],[['her arrest order was blithely ignored by the police chief']]
-otiose,adjective,['indolent or idle.'],['No examples']
-pugnacious,adjective,"['eager or quick to argue, quarrel, or fight']",[['his public statements became increasingly pugnacious']]
-cacophony,noun,['a harsh discordant mixture of sounds'],[['a cacophony of deafening alarm bells']]
-besmirch,verb,['make (something) dirty or discoloured'],[['the ground was besmirched with blood']]
-bellwether,noun,"['the leading sheep of a flock, with a bell on its neck.']",['No examples']
-fisticuffs,noun,['fighting with the fists'],[['the result was an outbreak of fisticuffs']]
-clamorous,adjective,['making a loud and confused noise'],"[['a jostling, clamorous mob']]"
-vociferous,adjective,['expressing or characterized by vehement opinions; loud and forceful'],[['he was a vociferous opponent of the takeover']]
-stalwart,adjective,"['loyal, reliable, and hard-working']",[['he remained a stalwart supporter of the cause']]
-augur,verb,['(of an event or circumstance) portend a good or bad outcome'],[['the end of the cold war seemed to augur well']]
-byword,noun,['a person or thing cited as a notable and outstanding example or embodiment of something'],[['his name became a byword for luxury']]
-nomenclature,noun,"['the devising or choosing of names for things, especially in a science or other discipline']","[['the Linnean system of zoological nomenclature', 'the most important rule of nomenclature is that the name of a substance should be unambiguous']]"
-impinge,verb,"['have an effect, especially a negative one']",[['several factors impinge on market efficiency']]
-annex,verb,"[""add (territory) to one's own territory by appropriation""]",[['the left bank of the Rhine was annexed by France in 1797']]
-serendipity,noun,['the occurrence and development of events by chance in a happy or beneficial way'],"[['a fortunate stroke of serendipity', 'a series of small serendipities']]"
-ineluctable,adjective,['unable to be resisted or avoided; inescapable'],[['the ineluctable facts of history']]
-pernicious,adjective,"['having a harmful effect, especially in a gradual or subtle way']",[['the pernicious influences of the mass media']]
-panacea,noun,['a solution or remedy for all difficulties or diseases'],"[['the panacea for all corporate ills', 'the time-honoured panacea, cod liver oil']]"
-furore,noun,['an outbreak of public anger or excitement'],[['the verdict raised a furore over the role of courtroom psychiatry']]
-edifice,noun,['a complex system of beliefs'],[['the concepts on which the edifice of capitalism was built']]
-appurtenance,noun,['an accessory or other item associated with a particular activity or style of living'],[['the appurtenances of consumer culture']]
-animus,noun,['the rational mind.'],['No examples']
-Luddite,noun,"['a member of any of the bands of English workers who destroyed machinery, especially in cotton and woollen mills, that they believed was threatening their jobs (1811–16).']",['No examples']
-consternation,noun,"['a feeling of anxiety or dismay, typically at something unexpected']","[[""\n              to her consternation her car wouldn't start""]]"
-nascent,adjective,['(especially of a process or organization) just coming into existence and beginning to display signs of future potential'],[['the nascent space industry']]
-genteel,adjective,"['characterized by exaggerated or affected politeness, refinement, or respectability']",[['her genteel upbringing']]
-pliant,adjective,['easily influenced or directed; yielding'],[['a more pliant prime minister']]
-beseech,verb,['ask (someone) urgently and fervently to do something; implore; entreat'],"[['they beseeched him to stay', '‘You have got to believe me,’ Violet beseeched him', 'they earnestly beseeched his forgiveness']]"
-vacillate,verb,['waver between different opinions or actions; be indecisive'],[['I vacillated between teaching and journalism']]
-apotheosis,noun,['the elevation of someone to divine status'],[['death spared Pompey the task of having to account for the apotheosis of Caesar']]
-lugubrious,adjective,['looking or sounding sad and dismal'],[['his face looked even more lugubrious than usual']]
-dredge,verb,"['clear the bed of (a harbour, river, or other area of water) by scooping out mud, weeds, and rubbish with a dredge']","[['the lower stretch of the river had been dredged', 'the dredging and deepening of the canal']]"
-purloin,verb,['steal (something)'],[['he must have managed to purloin a copy of the key']]
-fecund,adjective,['producing or capable of producing an abundance of offspring or new growth; highly fertile'],[['a lush and fecund garden']]
-riposte,noun,['a quick return thrust in fencing.'],['No examples']
-burgeon,verb,['begin to grow or increase rapidly; flourish'],"[[""the city's suburbs have burgeoned, sprawling out from the centre""]]"
-modicum,noun,"['a small quantity of a particular thing, especially something desirable or valuable']",[['his statement had a modicum of truth']]
-paltry,adjective,['(of an amount) very small or meagre'],[['she would earn a paltry £33 more a month']]
-malaise,noun,"['a general feeling of discomfort, illness, or unease whose exact cause is difficult to identify']","[['a general air of malaise', 'a society afflicted by a deep cultural malaise']]"
-culpable,adjective,['deserving blame'],[['mercy killings are less culpable than ‘ordinary’ murders']]
-cosseted,adjective,['cared for and protected in an overindulgent way; pampered'],"[['the cosseted daughter of an upper-class New England family', 'the cosseted world of the superstar', 'for cossetted cats living in the UK, life has never been better']]"
-wanton,adjective,['growing profusely; luxuriant'],[['where wanton ivy twines']]
-parochial,adjective,['having a limited or narrow outlook or scope'],"[['parochial attitudes', 'their interests are too parochial']]"
-syllogism,noun,"['an instance of a form of reasoning in which a conclusion is drawn from two given or assumed propositions (premises); a common or middle term is present in the two premises but not in the conclusion, which may be invalid (e.g. all dogs are animals; all animals have four legs; therefore all dogs have four legs).']",['No examples']
-mooring,noun,['a place where a boat or ship is moored'],"[[""they tied up at Water Gypsy's permanent moorings""]]"
-numinous,adjective,['having a strong religious or spiritual quality; indicating or suggesting the presence of a divinity'],"[['the strange, numinous beauty of this ancient landmark']]"
-sclerotic,adjective,['relating to the sclera.'],['No examples']
-imbibe,verb,['drink (alcohol)'],[['they were imbibing far too many pitchers of beer']]
-penance,noun,['a sacrament in which a member of the Church confesses sins to a priest and is given absolution.'],['No examples']
-carte blanche,noun,['(in piquet) a hand containing no court cards as dealt.'],['No examples']
-sequester,verb,"['form a chelate or other stable compound with (an ion, atom, or molecule) so that it is no longer available for reactions']","[['non-precipitating water softeners use complex phosphates to sequester calcium and magnesium ions', 'the organic sequestering agent EDTA']]"
-verisimilitude,noun,['the appearance of being true or real'],[['the detail gives the novel some verisimilitude']]
-languorous,adjective,['characterized by an oppressive stillness'],[['the atmosphere is languorous and sultry']]
-decrepit,adjective,['worn out or ruined because of age or neglect'],[['a row of decrepit houses']]
-gentrification,noun,"['the process whereby the character of a poor urban area is changed by wealthier people moving in, improving housing, and attracting new businesses, often displacing current inhabitants in the process']","[['an area undergoing rapid gentrification', 'signs of creeping gentrification are evident']]"
-soniferous,adjective,['That conveys or bears sound; that produces (a lot of) sound.'],['No examples']
-dither,verb,['add white noise to (a digital recording) to reduce distortion of low-amplitude signals.'],['No examples']
-languish,verb,['be forced to remain in an unpleasant place or situation'],[['he has been languishing in jail since 1974']]
-detente,noun,"['the easing of hostility or strained relations, especially between countries']",[['his policy of arms control and detente with the Soviet Union']]
-fillip,noun,['a movement made by bending the last joint of the finger against the thumb and suddenly releasing it; a flick of the finger.'],['No examples']
-nascent,adjective,['(especially of a process or organization) just coming into existence and beginning to display signs of future potential'],[['the nascent space industry']]
-commensurate,adjective,['corresponding in size or degree; in proportion'],"[['salary will be commensurate with age and experience', 'such heavy responsibility must receive commensurate reward']]"
-compunction,noun,['a feeling of guilt or moral scruple that prevents or follows the doing of something bad'],[['they used their tanks without compunction']]
-abut,verb,['(of a building or an area of land) be next to or have a common boundary with'],"[['gardens abutting Great Prescott Street', 'a park abutting on an area of waste land']]"
-eke,verb,['make an amount or supply of something last longer by using or consuming it frugally'],"[[""the remains of yesterday's stew could be eked out to make another meal""]]"
-mulish,adjective,['resembling or likened to a mule in being stubborn'],[['a mulish expression']]
-intransigence,noun,"[""refusal to change one's views or to agree about something""]","[['in the face of government intransigence, he resigned in disgust']]"
-fraught,adjective,['causing or affected by anxiety or stress'],"[['there was a fraught silence', 'she sounded a bit fraught']]"
-indignant,adjective,['feeling or showing anger or annoyance at what is perceived as unfair treatment'],[['he was indignant at being the object of suspicion']]
-uppity,adjective,['self-important; arrogant'],[['an uppity MP and his lady wife']]
-mollify,verb,['appease the anger or anxiety of (someone)'],[['nature reserves were set up around the power stations to mollify local conservationists']]
-foist,verb,['impose an unwelcome or unnecessary person or thing on'],[['she had no desire to have an elderly relative foisted on her']]
-disparage,verb,['regard or represent as being of little worth'],[['he never missed an opportunity to disparage his competitors']]
-effete,adjective,"['affected, over-refined, and ineffectual']",[['effete trendies from art college']]
-insouciance,noun,['casual lack of concern; indifference'],[['an impression of boyish insouciance']]
-rapprochement,noun,['(especially in international affairs) an establishment or resumption of harmonious relations'],[['there were signs of a growing rapprochement between the two countries']]
-picayune,adjective,['of little value or significance; petty'],[['the picayune squabbling of party politicians']]
-sybaritic,adjective,['fond of sensuous luxury or pleasure; self-indulgent'],[['their opulent and sybaritic lifestyle']]
-pious,adjective,['(of a hope) sincere but unlikely to be fulfilled.'],['No examples']
-largesse,noun,['generosity in bestowing money or gifts upon others'],[['presumably public money is not dispensed with such largesse to anyone else']]
-fungible,adjective,['(of goods contracted for without an individual specimen being specified) replaceable by another identical item; mutually interchangeable'],"[[""it is by no means the world's only fungible commodity""]]"
-grist to the mill,idiomatic,"['useful experience, material, or knowledge']",[['all this free publicity was grist to his mill']]
-indefatigable,adjective,['(of a person or their efforts) persisting tirelessly'],[['an indefatigable defender of human rights']]
-iconoclast,noun,['a destroyer of images used in religious worship.'],['No examples']
-jettison,verb,['throw or drop (something) from an aircraft or ship'],[['six aircraft jettisoned their loads in the sea']]
-flinty,adjective,"['of, containing, or reminiscent of flint']","[['flinty soil', 'a flinty wine']]"
-deride,verb,['express contempt for; ridicule'],[['the decision was derided by environmentalists']]
-chary,adjective,['cautiously or suspiciously reluctant to do something'],[['she had been chary of telling the whole truth']]
-abdicate,verb,['fail to fulfil or undertake (a responsibility or duty)'],[['the government was accused of abdicating its responsibility']]
-stymie,verb,['prevent or hinder the progress of'],[['the changes must not be allowed to stymie new medical treatments']]
-sanctimonious,adjective,['making a show of being morally superior to other people'],[['what happened to all the sanctimonious talk about putting his family first?']]
-cabal,noun,['a secret political clique or faction'],[['a cabal of dissidents']]
-abject,adjective,['(of a person or their behaviour) completely without pride or dignity; self-abasing'],[['an abject apology']]
-credulous,adjective,['having or showing too great a readiness to believe things'],[['a ceremony staged for credulous tourists']]
-inimical,adjective,['tending to obstruct or harm'],"[[""the policy was inimical to Britain's real interests""]]"
-reticence,noun,['the quality of being reticent; reserve'],[['the traditional emotional reticence of the British']]
-assuage,verb,['make (an unpleasant feeling) less intense'],[['the letter assuaged the fears of most members']]
-laconic,adjective,"['(of a person, speech, or style of writing) using very few words']",[['his laconic reply suggested a lack of interest in the topic']]
-glib,adjective,['(of words or a speaker) fluent but insincere and shallow'],[['the glib phrases soon roll off the tongue']]
-stolid,adjective,"['calm, dependable, and showing little emotion or animation']",[['a stolid bourgeois gent']]
-ebullient,adjective,['(of liquid or matter) boiling or agitated as if boiling'],[['misted and ebullient seas']]
-surreptitious,adjective,"['kept secret, especially because it would not be approved of']",[['low wages were supplemented by surreptitious payments from tradesmen']]
-wean,verb,"[""accustom (an infant or other young mammal) to food other than its mother's milk.""]",['No examples']
-nobble,verb,['obtain dishonestly; steal'],"[[""he intended to nobble Rose's money""]]"
-shambolic,adjective,"['chaotic, disorganized, or mismanaged']","[[""the department's shambolic accounting""]]"
-gamut,noun,['a complete scale of musical notes; the range of a voice or instrument'],[['the orchestral gamut']]
-conciliatory,adjective,['intended or likely to placate or pacify'],[['a conciliatory approach']]
-hubristic,adjective,['excessively proud or self-confident'],[['a hubristic belief in his own self-proclaimed genius']]
-privation,noun,['the loss or absence of a quality or attribute that is normally present'],[['cold is the privation of heat']]
-demur,verb,['raise objections or show reluctance'],"[['normally she would have accepted the challenge, but she demurred']]"
-erudite,adjective,['having or showing great knowledge or learning'],"[['Ken could turn any conversation into an erudite discussion', 'she was very erudite']]"
-doughty,adjective,['brave and persistent'],[['his doughty spirit kept him going']]
-straitened,adjective,['restricted in range or scope'],[['their straitened horizons']]
-doldrums,noun,"['an equatorial region of the Atlantic Ocean with calms, sudden storms, and light unpredictable winds']",[['Hurricane Verity had been born in the doldrums']]
-impecunious,adjective,['having little or no money'],[['a titled but impecunious family']]
-assiduously,adverb,['with great care and perseverance'],[['leaders worked assiduously to hammer out an action plan']]
-jeremiad,noun,"['a long, mournful complaint or lamentation; a list of woes']",[['the jeremiads of puritan preachers warning of moral decay']]
-earmark,verb,['mark the ear of (a domesticated animal) as a sign of ownership or identity.'],['No examples']
-palaver,noun,"['an improvised conference between two groups, typically those without a shared language or culture.']",['No examples']
-portent,noun,['an exceptional or wonderful person or thing'],[['what portent can be greater than a pious notary?']]
-banal,adjective,['so lacking in originality as to be obvious and boring'],"[['songs with banal, repeated words']]"
-diffident,adjective,['modest or shy because of a lack of self-confidence'],[['a diffident youth']]
-lionize,verb,['give a lot of public attention and approval to (someone); treat as a celebrity'],[['modern sportsmen are lionized and feted']]
-doddery,adjective,['slow and unsteady in movement because of weakness in old age'],"[[""he's a bit doddery on his legs and doesn't get about much""]]"
-ornery,adjective,['bad-tempered or difficult to deal with'],[['an ornery old military man']]
-proletariat,noun,['working-class people regarded collectively (often used with reference to Marxism)'],[['the growth of the industrial proletariat']]
-disenfranchise,verb,['deprive (someone) of the right to vote'],"[['the law disenfranchised some 3,000 voters on the basis of a residence qualification']]"
-vacillation,noun,['the inability to decide between different opinions or actions; indecision'],"[[""the First Minister's vacillation over the affair""]]"
-demagogue,noun,['a political leader who seeks support by appealing to the desires and prejudices of ordinary people rather than by using rational argument'],[['a gifted demagogue with particular skill in manipulating the press']]
-apogee,noun,['the point in the orbit of the moon or a satellite at which it is furthest from the earth.'],['No examples']
-onerous,adjective,"['(of a task or responsibility) involving a great deal of effort, trouble, or difficulty']",[['he found his duties increasingly onerous']]
-spurn,verb,['reject with disdain or contempt'],"[['he spoke gruffly, as if afraid that his invitation would be spurned']]"
-extol,verb,['praise enthusiastically'],[['he extolled the virtues of the Russian peoples']]
-fratricidal,adjective,['relating to or denoting conflict within a single family or organization'],[['the fratricidal strife within the Party']]
-sententious,adjective,['given to moralizing in a pompous or affected manner'],[['he tried to encourage his men with sententious rhetoric']]
-pyrrhic,adjective,['(of a victory) won at too great a cost to have been worthwhile for the victor.'],['No examples']
-plaudit,noun,['an expression of praise or approval'],[['the network has received plaudits for its sports coverage']]
-doyen,noun,['the most respected or prominent person in a particular field'],[['he became the doyen of British physicists']]
-peripatetic,adjective,['Aristotelian.'],['No examples']
-hock,noun,"['a knuckle of meat, especially of pork or ham.']",['No examples']
-mollify,verb,['appease the anger or anxiety of (someone)'],[['nature reserves were set up around the power stations to mollify local conservationists']]
-flogging,noun,['a punishment in which the victim is hit repeatedly with a whip or stick'],"[['public floggings', 'flogging was the principal form of military punishment']]"
-paragon,noun,['a person or thing regarded as a perfect example of a particular quality'],[['it would have taken a paragon of virtue not to feel viciously jealous']]
-frenetic,adjective,['fast and energetic in a rather wild and uncontrolled way'],[['a frenetic pace of activity']]
-obsequious,adjective,['obedient or attentive to an excessive or servile degree'],[['they were served by obsequious waiters']]
-emollient,adjective,['attempting to avoid confrontation or anger; calming or conciliatory'],"[[""the president's emollient approach to differences""]]"
-concomitant,adjective,['naturally accompanying or associated'],"[['she loved travel, with all its concomitant worries', '\n              concomitant with his obsession with dirt was a desire for order']]"
+word,type,definitions,examples
+
+caveat,noun,"['a warning or proviso of specific stipulations, conditions, or limitations']",[['there are a number of caveats which concern the validity of the assessment results']]
+
+gratuitous,adjective,['given or done free of charge'],[['solicitors provide a form of gratuitous legal advice']]
+
+veracity,noun,['conformity to facts; accuracy'],[['officials expressed doubts concerning the veracity of the story']]
+
+altruistic,adjective,['showing a disinterested and selfless concern for the well-being of others; unselfish'],"[['it was an entirely altruistic act', 'I question how altruistic his motives were']]"
+
+apartheid,noun,['(in South Africa) a policy or system of segregation or discrimination on grounds of race.'],['No examples']
+
+visceral,adjective,['relating to deep inward feelings rather than to the intellect'],"[[""the voters' visceral fear of change""]]"
+
+ubiquitous,adjective,"['present, appearing, or found everywhere']","[['his ubiquitous influence was felt by all the family', 'cowboy hats are ubiquitous among the male singers']]"
+
+servitude,noun,['the subjection of property to an easement.'],['No examples']
+
+stricture,noun,['abnormal narrowing of a canal or duct in the body'],"[['a colonic stricture', 'jaundice caused by bile duct stricture']]"
+
+opine,verb,"[""hold and state as one's opinion""]","[['ï¿½The man is a genius,ï¿½ he opined', 'the headmistress opined that the outing would make a nice change for Flora']]"
+
+larder,noun,['a room or large cupboard for storing food.'],['No examples']
+
+heresy,noun,['belief or opinion contrary to orthodox religious (especially Christian) doctrine'],"[['Huss was burned for heresy', 'the doctrine was denounced as a heresy by the Pope']]"
+
+conflate,verb,"['combine (two or more sets of information, texts, ideas, etc.) into one']","[['the urban crisis conflates a number of different economic, political, and social issues']]"
+
+beset,verb,['be covered or studded with'],[['springy grass all beset with tiny jewel-like flowers']]
+
+beleaguered,adjective,['(of a place) surrounded by armed forces aiming to capture it or force surrender; besieged'],[['he led a relief force to the aid of the beleaguered city']]
+
+ostensible,adjective,"['stated or appearing to be true, but not necessarily so']",[['the real dispute which lay behind the ostensible complaint']]
+
+dogma,noun,['a principle or set of principles laid down by an authority as incontrovertibly true'],"[['the dogmas of faith', 'the rejection of political dogma']]"
+
+technocracy,noun,['the government or control of society or industry by an elite of technical experts'],[['failure in the war on poverty discredited technocracy']]
+
+proxy,noun,['a figure that can be used to represent the value of something in a calculation'],[['the use of a US wealth measure as a proxy for the true worldwide measure']]
+
+egalitarian,adjective,['believing in or based on the principle that all people are equal and deserve equal rights and opportunities'],"[['a fairer, more egalitarian society']]"
+
+heuristic,adjective,['enabling someone to discover or learn something for themselves'],[['a ï¿½hands-onï¿½ or interactive heuristic approach to learning']]
+
+anachronistic,adjective,['belonging to a period other than that being portrayed'],"[[""'Titus' benefits from the effective use of anachronistic elements like cars and loudspeakers""]]"
+
+epithet,noun,['an adjective or phrase expressing a quality or attribute regarded as characteristic of the person or thing mentioned'],[['old men are often unfairly awarded the epithet ï¿½dirtyï¿½']]
+
+Kafkaesque,adjective,"[""characteristic or reminiscent of the oppressive or nightmarish qualities of Franz Kafka's fictional world""]",[['a Kafkaesque bureaucratic office']]
+
+ignominious,adjective,['deserving or causing public disgrace or shame'],[['no other party risked ignominious defeat']]
+
+confluence,noun,"['the junction of two rivers, especially rivers of approximately equal width']","[['the confluence of the Rivers Ouse and Foss', 'farther down the Tigris at its confluence with the Euphrates']]"
+
+prosaic,adjective,['having or using the style or diction of prose as opposed to poetry; lacking imaginativeness or originality'],"[[""prosaic language can't convey the experience""]]"
+
+duress,noun,"['threats, violence, constraints, or other action used to coerce someone into doing something against their will or better judgement']",[['confessions extracted under duress']]
+
+lauded,adjective,['highly praised or admired'],"[['a lauded author', 'her much-lauded rendering of Lady Macbeth']]"
+
+buttressed,adjective,['(of a building or structure) strengthened or supported with a buttress'],[['a buttressed wall']]
+
+rectitude,noun,['morally correct behaviour or thinking; righteousness'],[['Mattie is a model of rectitude']]
+
+sui generis,adjective,['unique'],[['the sui generis nature of animals']]
+
+profligacy,noun,['licentious or dissolute behaviour'],"[[""the emperor's sexual profligacy"", 'an era of extreme decadence and profligacy']]"
+
+sanguine,adjective,['bloody or bloodthirsty.'],['No examples']
+
+cantankerous,adjective,"['bad-tempered, argumentative, and uncooperative']",[['he can be a cantankerous old fossil at times']]
+
+nadir,noun,['the point on the celestial sphere directly below an observer.'],['No examples']
+
+moribund,adjective,['(of a person) at the point of death'],[['on examination she was moribund and dehydrated']]
+
+archaic,adjective,['very old or old-fashioned'],[['prisons are run on archaic methods']]
+
+egregious,adjective,['remarkably good.'],['No examples']
+
+capricious,adjective,['given to sudden and unaccountable changes of mood or behaviour'],[['a capricious and often brutal administration']]
+
+partisan,noun,"['a member of an armed group formed to fight secretly against an occupying force, in particular one operating in German-occupied Yugoslavia, Italy, and parts of eastern Europe in the Second World War']","[['the partisans opened fire from the woods', 'it is not in the nature of partisan warfare to produce victory in the field']]"
+
+rumbustious,adjective,['boisterous or unruly'],[['rumbustious football fans']]
+
+jettison,verb,['throw or drop (something) from an aircraft or ship'],[['six aircraft jettisoned their loads in the sea']]
+
+salient,adjective,"['(of an animal) standing on its hind legs with the forepaws raised, as if leaping.']",['No examples']
+
+caricature,noun,"['a picture, description, or imitation of a person in which certain striking characteristics are exaggerated in order to create a comic or grotesque effect']","[['a crude caricature of the Prime Minister', 'there are elements of caricature in the portrayal of the hero']]"
+
+rapacious,adjective,['aggressively greedy or grasping'],[['rapacious landlords']]
+
+corollary,noun,['a proposition that follows from (and is often appended to) one already proved.'],['No examples']
+
+martyr,noun,['a person who is killed because of their religious or other beliefs'],[['the first Christian martyr']]
+
+imprimatur,noun,['an official licence issued by the Roman Catholic Church to print an ecclesiastical or religious book'],"[[""the imprimatur for this edition was granted by Cardinal O'Casey""]]"
+
+quiescence,noun,['inactivity or dormancy'],[['this method has been shown to induce sleep-like quiescence in adult animals']]
+
+Balkanize,verb,['divide (a region or body) into smaller mutually hostile states or groups'],"[['ambitious neighbours would snatch pieces of territory, Balkanizing the country', 'the balkanized world of the Senate Banking Committee']]"
+
+appellate,adjective,['(especially of a court) concerned with or dealing with applications for decisions to be reversed'],[['courts of appellate jurisdiction']]
+
+affront,noun,['an action or remark that causes outrage or offence'],"[[""he took his son's desertion as a personal affront"", 'the sackings were an affront to justice']]"
+
+impasse,noun,"['a situation in which no progress is possible, especially because of disagreement; a deadlock']",[['the current political impasse']]
+
+pedantic,adjective,['excessively concerned with minor details or rules; overscrupulous'],"[['his analyses are careful and even painstaking, but never pedantic']]"
+
+purveyor,noun,['a person who sells or deals in particular goods'],[['a purveyor of large luxury vehicles']]
+
+proliferate,verb,['increase rapidly in number; multiply'],[['the science fiction magazines which proliferated in the 1920s']]
+
+moratorium,noun,['a temporary prohibition of an activity'],[['a moratorium on the use of drift nets']]
+
+par excellence,adjective,['better or more than all others of the same kind'],"[['Nash is, to many, the Regency architect par excellence']]"
+
+zeitgeist,noun,['the defining spirit or mood of a particular period of history as shown by the ideas and beliefs of the time'],[['the story captured the zeitgeist of the late 1960s']]
+
+amorphous,adjective,['without a clearly defined shape or form'],"[['an amorphous, characterless conurbation', 'amorphous blue forms and straight black lines']]"
+
+slovenly,adjective,['(especially of a person or their appearance) untidy and dirty'],"[['a fat, slovenly ex-rock star']]"
+
+pellucid,adjective,['translucently clear'],[['mountains reflected in the pellucid waters']]
+
+pliable,adjective,['easily influenced'],[['pliable teenage minds']]
+
+matriculate,verb,['record (arms) in an official register'],[['the arms have been matriculated by the Lord Lyon King of Arms in Edinburgh']]
+
+abscond,verb,"['leave hurriedly and secretly, typically to escape from custody or avoid arrest']","[[""the barman absconded with a week's takings"", '176 detainees absconded']]"
+
+ardour,noun,['great enthusiasm or passion'],"[['the rebuff did little to dampen his ardour', 'he kissed her with an ardour that left her breathless']]"
+
+dawdle,verb,['waste time; be slow'],"[[""she mustn't dawdleï¿½she had to make the call now""]]"
+
+blithely,adverb,['in a way that shows a casual and cheerful indifference considered to be callous or improper'],[['her arrest order was blithely ignored by the police chief']]
+
+otiose,adjective,['indolent or idle.'],['No examples']
+
+pugnacious,adjective,"['eager or quick to argue, quarrel, or fight']",[['his public statements became increasingly pugnacious']]
+
+cacophony,noun,['a harsh discordant mixture of sounds'],[['a cacophony of deafening alarm bells']]
+
+besmirch,verb,['make (something) dirty or discoloured'],[['the ground was besmirched with blood']]
+
+bellwether,noun,"['the leading sheep of a flock, with a bell on its neck.']",['No examples']
+
+fisticuffs,noun,['fighting with the fists'],[['the result was an outbreak of fisticuffs']]
+
+clamorous,adjective,['making a loud and confused noise'],"[['a jostling, clamorous mob']]"
+
+vociferous,adjective,['expressing or characterized by vehement opinions; loud and forceful'],[['he was a vociferous opponent of the takeover']]
+
+stalwart,adjective,"['loyal, reliable, and hard-working']",[['he remained a stalwart supporter of the cause']]
+
+augur,verb,['(of an event or circumstance) portend a good or bad outcome'],[['the end of the cold war seemed to augur well']]
+
+byword,noun,['a person or thing cited as a notable and outstanding example or embodiment of something'],[['his name became a byword for luxury']]
+
+nomenclature,noun,"['the devising or choosing of names for things, especially in a science or other discipline']","[['the Linnean system of zoological nomenclature', 'the most important rule of nomenclature is that the name of a substance should be unambiguous']]"
+
+impinge,verb,"['have an effect, especially a negative one']",[['several factors impinge on market efficiency']]
+
+annex,verb,"[""add (territory) to one's own territory by appropriation""]",[['the left bank of the Rhine was annexed by France in 1797']]
+
+serendipity,noun,['the occurrence and development of events by chance in a happy or beneficial way'],"[['a fortunate stroke of serendipity', 'a series of small serendipities']]"
+
+ineluctable,adjective,['unable to be resisted or avoided; inescapable'],[['the ineluctable facts of history']]
+
+pernicious,adjective,"['having a harmful effect, especially in a gradual or subtle way']",[['the pernicious influences of the mass media']]
+
+panacea,noun,['a solution or remedy for all difficulties or diseases'],"[['the panacea for all corporate ills', 'the time-honoured panacea, cod liver oil']]"
+
+furore,noun,['an outbreak of public anger or excitement'],[['the verdict raised a furore over the role of courtroom psychiatry']]
+
+edifice,noun,['a complex system of beliefs'],[['the concepts on which the edifice of capitalism was built']]
+
+appurtenance,noun,['an accessory or other item associated with a particular activity or style of living'],[['the appurtenances of consumer culture']]
+
+animus,noun,['the rational mind.'],['No examples']
+
+Luddite,noun,"['a member of any of the bands of English workers who destroyed machinery, especially in cotton and woollen mills, that they believed was threatening their jobs (1811ï¿½16).']",['No examples']
+
+consternation,noun,"['a feeling of anxiety or dismay, typically at something unexpected']","[["to her consternation her car wouldn't start"]]"
+
+nascent,adjective,['(especially of a process or organization) just coming into existence and beginning to display signs of future potential'],[['the nascent space industry']]
+
+genteel,adjective,"['characterized by exaggerated or affected politeness, refinement, or respectability']",[['her genteel upbringing']]
+
+pliant,adjective,['easily influenced or directed; yielding'],[['a more pliant prime minister']]
+
+beseech,verb,['ask (someone) urgently and fervently to do something; implore; entreat'],"[['they beseeched him to stay', 'ï¿½You have got to believe me,ï¿½ Violet beseeched him', 'they earnestly beseeched his forgiveness']]"
+
+vacillate,verb,['waver between different opinions or actions; be indecisive'],[['I vacillated between teaching and journalism']]
+
+apotheosis,noun,['the elevation of someone to divine status'],[['death spared Pompey the task of having to account for the apotheosis of Caesar']]
+
+lugubrious,adjective,['looking or sounding sad and dismal'],[['his face looked even more lugubrious than usual']]
+
+dredge,verb,"['clear the bed of (a harbour, river, or other area of water) by scooping out mud, weeds, and rubbish with a dredge']","[['the lower stretch of the river had been dredged', 'the dredging and deepening of the canal']]"
+
+purloin,verb,['steal (something)'],[['he must have managed to purloin a copy of the key']]
+
+fecund,adjective,['producing or capable of producing an abundance of offspring or new growth; highly fertile'],[['a lush and fecund garden']]
+
+riposte,noun,['a quick return thrust in fencing.'],['No examples']
+
+burgeon,verb,['begin to grow or increase rapidly; flourish'],"[[""the city's suburbs have burgeoned, sprawling out from the centre""]]"
+
+modicum,noun,"['a small quantity of a particular thing, especially something desirable or valuable']",[['his statement had a modicum of truth']]
+
+paltry,adjective,['(of an amount) very small or meagre'],[['she would earn a paltry ï¿½33 more a month']]
+
+malaise,noun,"['a general feeling of discomfort, illness, or unease whose exact cause is difficult to identify']","[['a general air of malaise', 'a society afflicted by a deep cultural malaise']]"
+
+culpable,adjective,['deserving blame'],[['mercy killings are less culpable than ï¿½ordinaryï¿½ murders']]
+
+cosseted,adjective,['cared for and protected in an overindulgent way; pampered'],"[['the cosseted daughter of an upper-class New England family', 'the cosseted world of the superstar', 'for cossetted cats living in the UK, life has never been better']]"
+
+wanton,adjective,['growing profusely; luxuriant'],[['where wanton ivy twines']]
+
+parochial,adjective,['having a limited or narrow outlook or scope'],"[['parochial attitudes', 'their interests are too parochial']]"
+
+syllogism,noun,"['an instance of a form of reasoning in which a conclusion is drawn from two given or assumed propositions (premises); a common or middle term is present in the two premises but not in the conclusion, which may be invalid (e.g. all dogs are animals; all animals have four legs; therefore all dogs have four legs).']",['No examples']
+
+mooring,noun,['a place where a boat or ship is moored'],"[[""they tied up at Water Gypsy's permanent moorings""]]"
+
+numinous,adjective,['having a strong religious or spiritual quality; indicating or suggesting the presence of a divinity'],"[['the strange, numinous beauty of this ancient landmark']]"
+
+sclerotic,adjective,['relating to the sclera.'],['No examples']
+
+imbibe,verb,['drink (alcohol)'],[['they were imbibing far too many pitchers of beer']]
+
+penance,noun,['a sacrament in which a member of the Church confesses sins to a priest and is given absolution.'],['No examples']
+
+carte blanche,noun,['(in piquet) a hand containing no court cards as dealt.'],['No examples']
+
+sequester,verb,"['form a chelate or other stable compound with (an ion, atom, or molecule) so that it is no longer available for reactions']","[['non-precipitating water softeners use complex phosphates to sequester calcium and magnesium ions', 'the organic sequestering agent EDTA']]"
+
+verisimilitude,noun,['the appearance of being true or real'],[['the detail gives the novel some verisimilitude']]
+
+languorous,adjective,['characterized by an oppressive stillness'],[['the atmosphere is languorous and sultry']]
+
+decrepit,adjective,['worn out or ruined because of age or neglect'],[['a row of decrepit houses']]
+
+gentrification,noun,"['the process whereby the character of a poor urban area is changed by wealthier people moving in, improving housing, and attracting new businesses, often displacing current inhabitants in the process']","[['an area undergoing rapid gentrification', 'signs of creeping gentrification are evident']]"
+
+soniferous,adjective,['That conveys or bears sound; that produces (a lot of) sound.'],['No examples']
+
+dither,verb,['add white noise to (a digital recording) to reduce distortion of low-amplitude signals.'],['No examples']
+
+languish,verb,['be forced to remain in an unpleasant place or situation'],[['he has been languishing in jail since 1974']]
+
+detente,noun,"['the easing of hostility or strained relations, especially between countries']",[['his policy of arms control and detente with the Soviet Union']]
+
+fillip,noun,['a movement made by bending the last joint of the finger against the thumb and suddenly releasing it; a flick of the finger.'],['No examples']
+
+nascent,adjective,['(especially of a process or organization) just coming into existence and beginning to display signs of future potential'],[['the nascent space industry']]
+
+commensurate,adjective,['corresponding in size or degree; in proportion'],"[['salary will be commensurate with age and experience', 'such heavy responsibility must receive commensurate reward']]"
+
+compunction,noun,['a feeling of guilt or moral scruple that prevents or follows the doing of something bad'],[['they used their tanks without compunction']]
+
+abut,verb,['(of a building or an area of land) be next to or have a common boundary with'],"[['gardens abutting Great Prescott Street', 'a park abutting on an area of waste land']]"
+
+eke,verb,['make an amount or supply of something last longer by using or consuming it frugally'],"[[""the remains of yesterday's stew could be eked out to make another meal""]]"
+
+mulish,adjective,['resembling or likened to a mule in being stubborn'],[['a mulish expression']]
+
+intransigence,noun,"[""refusal to change one's views or to agree about something""]","[['in the face of government intransigence, he resigned in disgust']]"
+
+fraught,adjective,['causing or affected by anxiety or stress'],"[['there was a fraught silence', 'she sounded a bit fraught']]"
+
+indignant,adjective,['feeling or showing anger or annoyance at what is perceived as unfair treatment'],[['he was indignant at being the object of suspicion']]
+
+uppity,adjective,['self-important; arrogant'],[['an uppity MP and his lady wife']]
+
+mollify,verb,['appease the anger or anxiety of (someone)'],[['nature reserves were set up around the power stations to mollify local conservationists']]
+
+foist,verb,['impose an unwelcome or unnecessary person or thing on'],[['she had no desire to have an elderly relative foisted on her']]
+
+disparage,verb,['regard or represent as being of little worth'],[['he never missed an opportunity to disparage his competitors']]
+
+effete,adjective,"['affected, over-refined, and ineffectual']",[['effete trendies from art college']]
+
+insouciance,noun,['casual lack of concern; indifference'],[['an impression of boyish insouciance']]
+
+rapprochement,noun,['(especially in international affairs) an establishment or resumption of harmonious relations'],[['there were signs of a growing rapprochement between the two countries']]
+
+picayune,adjective,['of little value or significance; petty'],[['the picayune squabbling of party politicians']]
+
+sybaritic,adjective,['fond of sensuous luxury or pleasure; self-indulgent'],[['their opulent and sybaritic lifestyle']]
+
+pious,adjective,['(of a hope) sincere but unlikely to be fulfilled.'],['No examples']
+
+largesse,noun,['generosity in bestowing money or gifts upon others'],[['presumably public money is not dispensed with such largesse to anyone else']]
+
+fungible,adjective,['(of goods contracted for without an individual specimen being specified) replaceable by another identical item; mutually interchangeable'],"[[""it is by no means the world's only fungible commodity""]]"
+
+grist to the mill,idiomatic,"['useful experience, material, or knowledge']",[['all this free publicity was grist to his mill']]
+
+indefatigable,adjective,['(of a person or their efforts) persisting tirelessly'],[['an indefatigable defender of human rights']]
+
+iconoclast,noun,['a destroyer of images used in religious worship.'],['No examples']
+
+jettison,verb,['throw or drop (something) from an aircraft or ship'],[['six aircraft jettisoned their loads in the sea']]
+
+flinty,adjective,"['of, containing, or reminiscent of flint']","[['flinty soil', 'a flinty wine']]"
+
+deride,verb,['express contempt for; ridicule'],[['the decision was derided by environmentalists']]
+
+chary,adjective,['cautiously or suspiciously reluctant to do something'],[['she had been chary of telling the whole truth']]
+
+abdicate,verb,['fail to fulfil or undertake (a responsibility or duty)'],[['the government was accused of abdicating its responsibility']]
+
+stymie,verb,['prevent or hinder the progress of'],[['the changes must not be allowed to stymie new medical treatments']]
+
+sanctimonious,adjective,['making a show of being morally superior to other people'],[['what happened to all the sanctimonious talk about putting his family first?']]
+
+cabal,noun,['a secret political clique or faction'],[['a cabal of dissidents']]
+
+abject,adjective,['(of a person or their behaviour) completely without pride or dignity; self-abasing'],[['an abject apology']]
+
+credulous,adjective,['having or showing too great a readiness to believe things'],[['a ceremony staged for credulous tourists']]
+
+inimical,adjective,['tending to obstruct or harm'],"[[""the policy was inimical to Britain's real interests""]]"
+
+reticence,noun,['the quality of being reticent; reserve'],[['the traditional emotional reticence of the British']]
+
+assuage,verb,['make (an unpleasant feeling) less intense'],[['the letter assuaged the fears of most members']]
+
+laconic,adjective,"['(of a person, speech, or style of writing) using very few words']",[['his laconic reply suggested a lack of interest in the topic']]
+
+glib,adjective,['(of words or a speaker) fluent but insincere and shallow'],[['the glib phrases soon roll off the tongue']]
+
+stolid,adjective,"['calm, dependable, and showing little emotion or animation']",[['a stolid bourgeois gent']]
+
+ebullient,adjective,['(of liquid or matter) boiling or agitated as if boiling'],[['misted and ebullient seas']]
+
+surreptitious,adjective,"['kept secret, especially because it would not be approved of']",[['low wages were supplemented by surreptitious payments from tradesmen']]
+
+wean,verb,"[""accustom (an infant or other young mammal) to food other than its mother's milk.""]",['No examples']
+
+nobble,verb,['obtain dishonestly; steal'],"[[""he intended to nobble Rose's money""]]"
+
+shambolic,adjective,"['chaotic, disorganized, or mismanaged']","[[""the department's shambolic accounting""]]"
+
+gamut,noun,['a complete scale of musical notes; the range of a voice or instrument'],[['the orchestral gamut']]
+
+conciliatory,adjective,['intended or likely to placate or pacify'],[['a conciliatory approach']]
+
+hubristic,adjective,['excessively proud or self-confident'],[['a hubristic belief in his own self-proclaimed genius']]
+
+privation,noun,['the loss or absence of a quality or attribute that is normally present'],[['cold is the privation of heat']]
+
+demur,verb,['raise objections or show reluctance'],"[['normally she would have accepted the challenge, but she demurred']]"
+
+erudite,adjective,['having or showing great knowledge or learning'],"[['Ken could turn any conversation into an erudite discussion', 'she was very erudite']]"
+
+doughty,adjective,['brave and persistent'],[['his doughty spirit kept him going']]
+
+straitened,adjective,['restricted in range or scope'],[['their straitened horizons']]
+
+doldrums,noun,"['an equatorial region of the Atlantic Ocean with calms, sudden storms, and light unpredictable winds']",[['Hurricane Verity had been born in the doldrums']]
+
+impecunious,adjective,['having little or no money'],[['a titled but impecunious family']]
+
+assiduously,adverb,['with great care and perseverance'],[['leaders worked assiduously to hammer out an action plan']]
+
+jeremiad,noun,"['a long, mournful complaint or lamentation; a list of woes']",[['the jeremiads of puritan preachers warning of moral decay']]
+
+earmark,verb,['mark the ear of (a domesticated animal) as a sign of ownership or identity.'],['No examples']
+
+palaver,noun,"['an improvised conference between two groups, typically those without a shared language or culture.']",['No examples']
+
+portent,noun,['an exceptional or wonderful person or thing'],[['what portent can be greater than a pious notary?']]
+
+banal,adjective,['so lacking in originality as to be obvious and boring'],"[['songs with banal, repeated words']]"
+
+diffident,adjective,['modest or shy because of a lack of self-confidence'],[['a diffident youth']]
+
+lionize,verb,['give a lot of public attention and approval to (someone); treat as a celebrity'],[['modern sportsmen are lionized and feted']]
+
+doddery,adjective,['slow and unsteady in movement because of weakness in old age'],"[[""he's a bit doddery on his legs and doesn't get about much""]]"
+
+ornery,adjective,['bad-tempered or difficult to deal with'],[['an ornery old military man']]
+
+proletariat,noun,['working-class people regarded collectively (often used with reference to Marxism)'],[['the growth of the industrial proletariat']]
+
+disenfranchise,verb,['deprive (someone) of the right to vote'],"[['the law disenfranchised some 3,000 voters on the basis of a residence qualification']]"
+
+vacillation,noun,['the inability to decide between different opinions or actions; indecision'],"[[""the First Minister's vacillation over the affair""]]"
+
+demagogue,noun,['a political leader who seeks support by appealing to the desires and prejudices of ordinary people rather than by using rational argument'],[['a gifted demagogue with particular skill in manipulating the press']]
+
+apogee,noun,['the point in the orbit of the moon or a satellite at which it is furthest from the earth.'],['No examples']
+
+onerous,adjective,"['(of a task or responsibility) involving a great deal of effort, trouble, or difficulty']",[['he found his duties increasingly onerous']]
+
+spurn,verb,['reject with disdain or contempt'],"[['he spoke gruffly, as if afraid that his invitation would be spurned']]"
+
+extol,verb,['praise enthusiastically'],[['he extolled the virtues of the Russian peoples']]
+
+fratricidal,adjective,['relating to or denoting conflict within a single family or organization'],[['the fratricidal strife within the Party']]
+
+sententious,adjective,['given to moralizing in a pompous or affected manner'],[['he tried to encourage his men with sententious rhetoric']]
+
+pyrrhic,adjective,['(of a victory) won at too great a cost to have been worthwhile for the victor.'],['No examples']
+
+plaudit,noun,['an expression of praise or approval'],[['the network has received plaudits for its sports coverage']]
+
+doyen,noun,['the most respected or prominent person in a particular field'],[['he became the doyen of British physicists']]
+
+peripatetic,adjective,['Aristotelian.'],['No examples']
+
+hock,noun,"['a knuckle of meat, especially of pork or ham.']",['No examples']
+
+mollify,verb,['appease the anger or anxiety of (someone)'],[['nature reserves were set up around the power stations to mollify local conservationists']]
+
+flogging,noun,['a punishment in which the victim is hit repeatedly with a whip or stick'],"[['public floggings', 'flogging was the principal form of military punishment']]"
+
+paragon,noun,['a person or thing regarded as a perfect example of a particular quality'],[['it would have taken a paragon of virtue not to feel viciously jealous']]
+
+frenetic,adjective,['fast and energetic in a rather wild and uncontrolled way'],[['a frenetic pace of activity']]
+
+obsequious,adjective,['obedient or attentive to an excessive or servile degree'],[['they were served by obsequious waiters']]
+
+emollient,adjective,['attempting to avoid confrontation or anger; calming or conciliatory'],"[[""the president's emollient approach to differences""]]"
+
+concomitant,adjective,['naturally accompanying or associated'],"[['she loved travel, with all its concomitant worries', 'concomitant with his obsession with dirt was a desire for order']]"
+
