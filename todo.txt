@@ -1,3 +1,2 @@
 Add definition/example pop up when correct word is selected
-Add next button (or find out how to delay the frame refresh stuff)
-Add back to home button
+Improve UI design

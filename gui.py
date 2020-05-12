@@ -1,8 +1,7 @@
 import tkinter as tk
-import csv
+from functions import new_word, new_sentence
 import random
 from tkinter import font
-import re
 
 defscore = 0   
 egscore = 0
@@ -57,11 +56,12 @@ class Definitions(tk.Frame):
         self.titlefont = font.Font(family='Arial', size=20, weight='bold')
         self.qwordfont = font.Font(family='Arial', size=20, weight='bold', underline=True)
         self.helv36 = font.Font(family='Helvetica', size=10, weight='bold')
+        self.bind_all('<Right>', self.nextdef)
 
         title = tk.Label(self, text='What is the correct definition of:', bg='#80c1ff', font=self.titlefont)
         title.grid(row=0, column= 1, sticky='nesw', ipadx=70, ipady=20, pady=20)
 
-        self.new_word()
+        self.word, self.correctdef, self.fakedef1, self.fakedef2 = new_word()
 
         qword = tk.Label(self, text=self.word.title(), bg='#80c1ff', font=self.qwordfont)
         qword.grid(row=1, column=1, ipadx=150, ipady=30, pady=50)
@@ -78,34 +78,24 @@ class Definitions(tk.Frame):
         b3 = tk.Button(self, text=self.correctdef, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.correctdef: self.check(a, outcome))
         b3.grid(row=2, rowspan=2, column=lst[2], ipady=20, ipadx=10, padx=20, pady=30)
 
-        outcome = tk.Label(self, font=self.helv36)
+        backbtn = tk.Button(self, text="Back to home", justify='center', relief='groove', bg='white', font=self.helv36, command=lambda: controller.show_frame(HomePage))
+        backbtn.grid(row=0, column=2, ipady=15, ipadx=15, padx=15, pady=15)
+
+        outcome = tk.Label(self, font=self.qwordfont)
         outcome.grid(row=4, column=1)
 
         global defscore
         scores = tk.Label(self, text=f"Score: {str(defscore)}", font=self.helv36)
         scores.grid(row=5, column=2)
-
-    def new_word(self):
-        self._words = []
-        with open('dictionary.csv', 'r') as dictionary:
-            reader = csv.DictReader(dictionary, fieldnames=['word', 'type', 'definitions', 'examples'])
-            for row in reader:
-                self._words.append(row)
-        self.word = random.choice(self._words[1:])['word']
-        for i in self._words[1:]:
-            if i['word'] == self.word:
-                self.correctdef = re.sub(r"[(\[\')(\'\])]", ' ', i['definitions'])
-                self._words.pop(self._words.index(i))
-        self._fakes = random.sample(self._words, 2)
-        self.fakedef1 = re.sub(r"[(\[\')(\'\])]", ' ', self._fakes[0]['definitions'])
-        self.fakedef2 = re.sub(r"[(\[\')(\'\])]", ' ', self._fakes[1]['definitions'])
     
     def check(self, guess, outcome):
         if guess == self.correctdef:
             outcome.config(text = "correct", fg='green')
+            self.correct = 1
             global defscore
             defscore += 1   
-            self.nextslide()     
+            nextbtn = tk.Button(self, text="Next (->)", justify='center', relief='groove', bg='white', font=self.helv36, command=lambda : self.nextdef())
+            nextbtn.grid(row=1, column=2, ipady=20, ipadx=10, padx=20, pady=30)   
 
         else:
             if outcome['text'] == 'wrong':
@@ -113,13 +103,13 @@ class Definitions(tk.Frame):
             else:
                 outcome.config(text = 'wrong', fg='red')
         
-        
-    def nextslide(self):
-        global app
-        app.after(100, app.frames[Definitions].destroy())
-        app.frames[Definitions] = Definitions(container, app)
-        app.frames[Definitions].grid(row=0, column = 0, sticky = "nsew")
-        app.frames[Definitions].tkraise()
+    def nextdef(self, event=None):
+            global app
+            app.after(100, app.frames[Definitions].destroy())
+            app.frames[Definitions] = Definitions(container, app)
+            app.frames[Definitions].grid(row=0, column = 0, sticky = "nsew")
+            app.frames[Definitions].tkraise()
+
 
 # Examples
 class Examples(tk.Frame):
@@ -127,6 +117,7 @@ class Examples(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller 
+        self.bind_all('<Return>', self.nexteg)
 
         self.titlefont = font.Font(family='Arial', size=14, weight='bold')
         self.qwordfont = font.Font(family='Arial', size=14, weight='bold')
@@ -135,7 +126,7 @@ class Examples(tk.Frame):
         title = tk.Label(self,text='Fill in the blank with the correct word.', bg='#80c1ff', font=self.titlefont)
         title.grid(row=0, column= 1, sticky='nesw', ipadx=70, ipady=20, pady=40)
 
-        self.new_sentence()
+        self.sentence, self.correctword, self.fakeword1, self.fakeword2 = new_sentence()
 
         qsentence = tk.Label(self, text=self.sentence, bg='#80c1ff', font=self.qwordfont, wraplength=350)
         qsentence.grid(row=1, column=1, ipadx=100, ipady=30, pady=50)
@@ -152,49 +143,24 @@ class Examples(tk.Frame):
         b3 = tk.Button(self, text=self.correctword, justify='center', relief='groove', wraplength=300, bg='white', font=self.helv36, command=lambda a=self.correctword: self.check(a, outcome))
         b3.grid(row=2, rowspan=2, column=lst[2], ipady=20, ipadx=10, padx=20, pady=30)
 
-        outcome = tk.Label(self, font=self.helv36)
+        backbtn = tk.Button(self, text="Back to home", justify='center', relief='groove', bg='white', font=self.helv36, command=lambda: controller.show_frame(HomePage))
+        backbtn.grid(row=0, column=2, ipady=15, ipadx=15, padx=15, pady=15)        
+
+        outcome = tk.Label(self, font=self.qwordfont)
         outcome.grid(row=4, column=1)
 
         global egscore
         scores = tk.Label(self, text=f"Score: {str(egscore)}", font=self.helv36)
-        scores.grid(row=5, column=2)
-
-    def new_sentence(self):
-        self._sentences = []
-        self._haveexamples = []
-        with open('dictionary.csv', 'r') as dictionary:
-            reader = csv.DictReader(dictionary, fieldnames=['word', 'type', 'definitions', 'examples'])
-            for row in reader:
-                self._sentences.append(dict(row))
-
-        for i in self._sentences:
-            if i['examples'] != "['No examples']":     
-                i['examples'] = re.sub(r"[(\[\[)(\]\])]", '', i['examples']).split("', '")
-                self._haveexamples.append(i)
-
-        self._sentence = random.choice(self._haveexamples[1:])['examples']       
-        if len(self._sentence) > 1:
-            self.sentence = " / \n".join(self._sentence)
-        else:
-            self.sentence = self._sentence[0]
-
-        for i in self._haveexamples[1:]:
-            if i['examples'] == self._sentence:
-                self.correctword = i['word']
-                self._sentences.pop(self._sentences.index(i))
-                self.sentence = self.sentence.replace(self.correctword, '______').rstrip("\"'").lstrip("\"'")               
-
-        self._fakes = random.sample(self._sentences[1:], 2)
-        self.fakeword1 = self._fakes[0]['word']
-        self.fakeword2 = self._fakes[1]['word']      
+        scores.grid(row=5, column=2)   
 
     def check(self, guess, outcome):
         if guess == self.correctword:
             outcome.config(text = "correct", fg='green')
             global egscore
-            egscore += 1   
-            self.nextslide()     
-
+            egscore += 1
+            nextbtn = tk.Button(self, text="Next (Enter)", justify='center', relief='groove', bg='white', font=self.helv36, command=lambda : self.nexteg())
+            nextbtn.grid(row=1, column=2, ipady=20, ipadx=10, padx=20, pady=30)                
+  
         else:
             if outcome['text'] == 'wrong':
                 outcome.config(text = 'still wrong', fg='red')
@@ -202,7 +168,7 @@ class Examples(tk.Frame):
                 outcome.config(text = 'wrong', fg='red')
         
         
-    def nextslide(self):
+    def nexteg(self, event=None):
         global app
         app.after(100, app.frames[Examples].destroy())
         app.frames[Examples] = Examples(container, app)
